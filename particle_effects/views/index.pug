@@ -1,14 +1,10 @@
-//extends layout
-//
-//block content
-//  h1= title
-//  p Welcome to #{title}
 doctype html
 html
   head
     title= title
     link(rel="stylesheet", href="/stylesheets/style.css")
   body
-    div#particle-canvas
+    div.back#particle-canvas.parallax-group
+    div.front Pranay Marella
     script(src="/javascript/particle-network.min.js")
     script(src="/javascripts/particle_canvas.js")
